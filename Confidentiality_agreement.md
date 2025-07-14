@@ -1,0 +1,5 @@
+The relevant excerpts from the confidentiality clause states: 
+
+1. *“All participants must strictly adhere to the confidentiality agreement. It is strictly forbidden to disclose device or vulnerability information or to submit any discovered vulnerabilities to other vulnerability platforms. Any violation will result in immediate disqualification from the competition, forfeiture of any prize money, and penalties in accordance with the terms of the agreement.”*
+
+2. *“For vehicle systems with granted access permissions, it is strictly prohibited to extract and remove firmware from the competition venue. If any files have been partially extracted or analyzed, please ensure their deletion after the competition ends. In the event of any file being taken out or leaked, disqualification will be enforced in accordance with the confidentiality agreement.”*
