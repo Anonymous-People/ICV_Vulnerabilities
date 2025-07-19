@@ -2,8 +2,6 @@
 
 The vulnerability data mentioned in the article can be found in the ICV_study.* file, which contains all the data we have analyzed. The data is available in two formats: CSV and XLSX. If you need to download the dataset, you can choose the format that suits your needs. Note that in the Attack surface column, 1 represents short, 2 represents mid-range, and 3 represents remote.
 
-Besides, we have introduced the attack paths for 14 types of connected vehicle vulnerabilities. The detailed flowcharts are available in the AttackPath folder. Although these contents were not specifically described in the paper due to security concerns, we will introduce the specifics of each attack method in detail through blog posts.
-
 # Vulnerability risk level determination table
 In the RISK TAXONOMY section of the paper, we mentioned the Vulnerability Risk Level Determination Table. The original text is as follows:
 > To prioritize remediation based on impact severity, we classify vulnerabilities by risk, resulting in 4 risk levels, such as low (L), medium (M), high (H), and critical (C).
