@@ -63,7 +63,7 @@ From the data presented, we can derive the following insights:
 
 According to the data presented in Table 2, the attack surfaces are categorized into short-range, mid-range, and remote attacks, with totals of 298, 15, and 336 respectively:
 
-- The 298 short-range attacks are predominantly found in in-vehicle components, including IVI (In-Vehicle Infotainment) with 197 instances, ECU (Electronic Control Unit) with 43 instances, and T-Box with 22 instances.
+- The 298 short-range attacks are predominantly found in in-vehicle components, including IVI (In-Vehicle Infotainment) with 197 instances, ECU (Electronic Control Unit) with 46 instances, and T-Box with 22 instances.
 - The 15 mid-range attacks are primarily directed towards the radio, with 12 instances reported.
 - The 336 remote attacks are largely concentrated in the cloud platform, accounting for 245 instances, and the APP (Application), with 64 instances.
 
