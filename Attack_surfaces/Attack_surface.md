@@ -23,7 +23,7 @@ Fig.1 illustrates a typical remote ICV vulnerability exploit reported by competi
 
 
 
-<img src="Mid-range.png" alt="image-20250713114143988" align="middle" />
+<img src="Mid-range.png" alt="image-20250713114143988" style="margin:auto;" />
 
 <p align="center">Fig 2: A typical mid-range ICV attack surface..</p>
 
@@ -44,7 +44,7 @@ The additional column named "Attack surface" has been added to the existing data
 
 ### Vulnerability type and attack surface
 
-<img src="type_map.png" alt="vulnerable_types" style="zoom:80%;" align="middle" />
+<img src="Type_map.png" alt="vulnerable_types" style="margin:auto;" />
 
 According to the data in Table 1, regarding vulnerability types:
 
@@ -66,7 +66,7 @@ From the data presented, we can derive the following insights:
 
 ### Vulnerability location and attack surface
 
-<img src="location_map.png" alt="vulnerability_location" align="middle" />
+<img src="Location_map.png" alt="vulnerability_location" style="margin:auto;" />
 
 According to the data presented in Table 2, the attack surfaces are categorized into short-range, mid-range, and remote attacks, with totals of 298, 15, and 336 respectively:
 
