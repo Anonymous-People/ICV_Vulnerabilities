@@ -2,7 +2,7 @@
 
 ### Relation between Nations and Locations
 
-​	To reveal the differences in ICV security across countries of manufacture, we analyzed the distribution of vulnerabilities across different modules in ICVs from various nations, as shown in Table. 1. ICVs manufactured in China account for the vast majority of all recorded vulnerabilities (88.6%). This is largely due to the lack of unified and mature standards for ICV production, with many regulations still in trial stages, leading to heterogeneous network architectures and protection mechanisms across manufacturers. In contrast, vulnerabilities in American vehicles are predominantly concentrated in in-vehicle components (such as ECUs and IVIs), accounting for as much as 89.3%, with almost no cloud platform vulnerabilities.
+To reveal the differences in ICV security across countries of manufacture, we analyzed the distribution of vulnerabilities across different modules in ICVs from various nations, as shown in Table. 1. ICVs manufactured in China account for the vast majority of all recorded vulnerabilities (88.6%). This is largely due to the lack of unified and mature standards for ICV production, with many regulations still in trial stages, leading to heterogeneous network architectures and protection mechanisms across manufacturers. In contrast, vulnerabilities in American vehicles are predominantly concentrated in in-vehicle components (such as ECUs and IVIs), accounting for as much as 89.3%, with almost no cloud platform vulnerabilities.
 German ICVs exhibit a more balanced distribution, with 59.4% of vulnerabilities involving cloud platforms and APPs, and 40.6% tied to in-vehicle systems—indicating simultaneous emphasis on internal and external system protection.
 
 
@@ -26,7 +26,7 @@ German ICVs exhibit a more balanced distribution, with 59.4% of vulnerabilities 
 
 ### Relation between Nations and Types
 
-​	As shown in Table. 2, from a vulnerability type perspective, authorization issues dominate across all nations but are especially prominent in Chinese ICVs (36.87\%), suggesting persistent challenges in access control and identity verification. Chinese vehicles also show high instances of information leakage (104) and injection vulnerabilities (73), indicating gaps in secure data handling and input sanitization. German vehicles present a more distributed type profile, though authorization flaws remain primary. In contrast, American vehicles, despite having fewer total vulnerabilities, show a low proportion of information leakage (7.1\%), highlighting concerns with data exposure and insufficient boundary protections. These patterns reflect differing priorities and levels of cybersecurity maturity among ICV-producing nations.
+As shown in Table. 2, from a vulnerability type perspective, authorization issues dominate across all nations but are especially prominent in Chinese ICVs (36.87\%), suggesting persistent challenges in access control and identity verification. Chinese vehicles also show high instances of information leakage (104) and injection vulnerabilities (73), indicating gaps in secure data handling and input sanitization. German vehicles present a more distributed type profile, though authorization flaws remain primary. In contrast, American vehicles, despite having fewer total vulnerabilities, show a low proportion of information leakage (7.1\%), highlighting concerns with data exposure and insufficient boundary protections. These patterns reflect differing priorities and levels of cybersecurity maturity among ICV-producing nations.
 
 
 
@@ -49,7 +49,7 @@ German ICVs exhibit a more balanced distribution, with 59.4% of vulnerabilities 
 
 ## APP class-based mapping
 
-​	The app in the competition is the default app provided by the car manufacturer, developed often in Java, and serves informational and entertainment functions, such as a car owner forum and remote door unlocking. 
+The app in the competition is the default app provided by the car manufacturer, developed often in Java, and serves informational and entertainment functions, such as a car owner forum and remote door unlocking. 
 
 ​	We classify the 66 app vulnerabilities we have collected into two categories: the first category includes vulnerabilities within the app itself, such as car mileage information leakage and arbitrary account password login, called “ APP-internal”; the second category involves vulnerabilities that affect vehicle safety, such as the ability to control the vehicle's unlocking, called "APP-to-vehicle". As shown in Table. 3, it can be observed that while the car manufacturer has implemented some protection for communication between the app and the car, they have overlooked the app's security, leading to vulnerabilities such as owner information leakage and arbitrary account logins.
 
