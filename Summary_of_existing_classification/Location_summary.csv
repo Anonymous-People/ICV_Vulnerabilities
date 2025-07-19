@@ -1,4 +1,4 @@
-ID,Title,Count,Location,Map,Cover,Total,%,Other
+ID,Title,Count,Location,Map,Cover,Total,%,Out of scope
 1,A taxonomy of attack mechanisms in the automotive domain,3 (20),"Physical Access (On-board diagnostic port (OBD), ECUs, On-board computers, Modules, Media systems, Navigation system, dashboard), Close Proximity (Bluetooth, Key/ignition, Sensors, Tire pressure monitoring system (TPMS), Dedicated short range communication, Wi-Fi, WAVE, Voice controllable, Speech recognition system), Remote Access (GPS, Radio, Cellular or mobile network, Internet)","1. OBD, On-board computers, Media system, Navigation system,dashboard,Voice controllable: IVI
 2. ECUs, Modules,TPMS: others; Bluetooth: IVI or others
 3. Key/ignition,Radio,WAVE,DSRC: Radio
