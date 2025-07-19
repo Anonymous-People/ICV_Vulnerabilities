@@ -7,9 +7,13 @@ We divide exploits reported by competitors into remote attacks, mid-range attack
 
 ### Remote attack surface
 
-![image-20250713113643613](image-20250713113643613.png)
+
+
+![image-20250713113643613](Remote.png)
 
 <p align="center">Fig 1: A typical remote ICV attack surface.</p>
+
+
 
 Fig.1 illustrates a typical remote ICV vulnerability exploit reported by competitors. Vehicle owners typically send remote control commands via an APP, such as pre-activating the air conditioning. However, an attacker may intercept the APP’s operation, obtain vehicle control commands (①), and replay them at an opportune moment (②). The cloud platform verifies the received command and sends a control instruction to the T-Box (③), which then transmits the command to the corresponding ECU for execution (④). Without proper verification and encrypted transmission, remote attacks can occur through multiple pathways. For instance, an attacker may access the cloud platform via a web browser to remotely control the vehicle or steal private data. Given the critical role of the cloud platform, manufacturers should enhance security measures and refine authorization mechanisms to effectively prevent remote attacks.
 
@@ -17,12 +21,15 @@ Fig.1 illustrates a typical remote ICV vulnerability exploit reported by competi
 
 ### Mid-range attack surface
 
-![image-20250713114143988](image-20250713114143988.png)
+
+
+<img src="Mid-range.png" alt="image-20250713114143988" align="middle" />
 
 <p align="center">Fig 2: A typical mid-range ICV attack surface..</p>
 
-Unauthorized unlocking by relaying/replaying the radio key fob unlock signal is a typical mid-range attack surface. Fig.2 illustrates a common mid-range ICV attack surface reported by competitors. Normally, the owner can send a signal to unlock the vehicle (①). Howerver, an attacker equipped with specialized equipment like high-gain antennas and Software-Defined Radios[1] can intercept the vehicle's unlock signal from several meters away[2, 3], causing the vehicle to provide no feedback (③). Then the owner might mistakenly judge that the first unlock signal was not sent successfully and then send a second unlock signal (④). At this point, the attacker can once again intercept the second unlock signal (⑤) and quickly replay the first unlock signal (⑥), resulting in the vehicle unlocking successfully. Meanwhile, the owner might mistakenly assume that the second unlock was successful (⑦), unaware that the attacker has stored the second unlock signal for future potential unauthorized unlocks.
-It can be seen that, under mid-range attack scenarios, adding a validity period check to the unlock signal can effectively prevent such replay attacks.
+
+
+Unauthorized unlocking by relaying/replaying the radio key fob unlock signal is a typical mid-range attack surface. Fig.2 illustrates a common mid-range ICV attack surface reported by competitors. Normally, the owner can send a signal to unlock the vehicle (①). Howerver, an attacker equipped with specialized equipment like high-gain antennas and Software-Defined Radios[1] can intercept the vehicle's unlock signal from several meters away[2, 3], causing the vehicle to provide no feedback (③). Then the owner might mistakenly judge that the first unlock signal was not sent successfully and then send a second unlock signal (④). At this point, the attacker can once again intercept the second unlock signal (⑤) and quickly replay the first unlock signal (⑥), resulting in the vehicle unlocking successfully. Meanwhile, the owner might mistakenly assume that the second unlock was successful (⑦), unaware that the attacker has stored the second unlock signal for future potential unauthorized unlocks. It can be seen that, under mid-range attack scenarios, adding a validity period check to the unlock signal can effectively prevent such replay attacks.
 
 ### Short-range attack surface
 
@@ -30,14 +37,14 @@ Attacks on IVI, T-Box, and network modules are typically classified as short-ran
 
 ## Study of attack surfaces with types and locations
 
-The additional column named "attack surface" has been added to the existing dataset. Based on this "attack surface" column, the following two dimensions have been compared:
+The additional column named "Attack surface" has been added to the existing dataset. Based on this "Attack surface" column, the following two dimensions have been compared:
 
-- Vulnerability types and attack surface
-- Vulnerability locations and attack surface
+- Vulnerability type and attack surface
+- Vulnerability location and attack surface
 
-### Vulnerability types and attack surface
+### Vulnerability type and attack surface
 
-<img src="./vulnerable_types.png" alt="vulnerable_types" style="zoom:80%;" />
+<img src="type_map.png" alt="vulnerable_types" style="zoom:80%;" align="middle" />
 
 According to the data in Table 1, regarding vulnerability types:
 
@@ -57,9 +64,9 @@ From the data presented, we can derive the following insights:
 2. **Fortify OS and Kernel:** The concentration of OS vulnerabilities in short-range attacks shows a need to improve operating system and kernel security. Efforts should aim at developing more secure kernel architectures and software installation processes.
 3. **Safeguard File Operations:** With file operation vulnerabilities spread across attack surfaces, securing file handling is crucial. This includes tight access controls, integrity checks, and secure download or deletion to prevent unauthorized access and breaches.
 
-### Vulnerability locations and attack surface
+### Vulnerability location and attack surface
 
-![vulnerability_location](./vulnerability_location.png)
+<img src="location_map.png" alt="vulnerability_location" align="middle" />
 
 According to the data presented in Table 2, the attack surfaces are categorized into short-range, mid-range, and remote attacks, with totals of 298, 15, and 336 respectively:
 

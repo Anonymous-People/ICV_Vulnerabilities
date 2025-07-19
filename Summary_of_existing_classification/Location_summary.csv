@@ -1,0 +1,76 @@
+ID,Title,Count,Location,Map,Cover,Total,%,Other
+1,A taxonomy of attack mechanisms in the automotive domain,3 (20),"Physical Access (On-board diagnostic port (OBD), ECUs, On-board computers, Modules, Media systems, Navigation system, dashboard), Close Proximity (Bluetooth, Key/ignition, Sensors, Tire pressure monitoring system (TPMS), Dedicated short range communication, Wi-Fi, WAVE, Voice controllable, Speech recognition system), Remote Access (GPS, Radio, Cellular or mobile network, Internet)","1. OBD, On-board computers, Media system, Navigation system,dashboard,Voice controllable: IVI
+2. ECUs, Modules,TPMS: others; Bluetooth: IVI or others
+3. Key/ignition,Radio,WAVE,DSRC: Radio
+4. Sensors: Sensors
+5. Wi-Fi,Internet, GPS, Cellular or mobile network: Network
+",5,11,45.45%,
+2,A survey on security attacks and defense techniques for connected and autonomous vehicles,8,"OBD, ECUs, CAN, LIDAR, Radar, GPS, Cameras, Communication mechanism","1. OBD: IVI
+2. ECUs: Others
+3. CAN, GPS: Network
+4. LIDAR, Radar, Cameras: Sensors
+",4,11,36.36%,Communication mechanism: Neighbor vehicles
+3,Survey and classification of automotive security attacks,2 (28),"Remote (WLAN, Bluetooth, Cellular, GPS, digital video broadcasting-terrestrial (DVB-T)/digital video broadcasting-terrestrial, 2nd generation (DVB-T2), digital audio broadcasting (DAB), Radio, Tire pressure monitoring system (TPMS), Radio frequency identification (RFID), Infrared), Internal (USB, Auxiliary, CD, DVD, ECU, Component, OBD, CAN, CAN FD, LIN, media oriented system transport (MOST), desktop-bus (D-Bus), FlexRay, Ethernet, Camera, LiDAR, radio detection and ranging (Radar), Software)","1. WLAN, GPS, CAN, CAN FD, LIN, MOST, FlexRay: Network
+2. DVB/T2/DAB, RFID Infrared, Radio: Radio
+3. TPMS, ECU: Others
+4. USB, Auxiliary, CD, DVD, OBD, D-bus, Ethernet: IVI, Bluetooth: IVI or Others
+5. Component, Camera, LiDAR, Radar: Sensors
+
+
+",5,11,45.45%,Cellular: Neighbor vehicles
+4,Autonomous Vehicle Security: A Taxonomy of Attacks and Defences,7,"ECUs, Sensors, GPS, Intra-vehicular links, V2V communication links, V2I communication links, V2IoT communication links","1. ECUs: Others
+2. Sensors: Sensors
+3. GPS: Network
+",3,11,27.27%,"Intra-vehicular links, V2V communication links, V2I communication links, V2IoT communication links: Neighbor vehicles"
+5,A Survey on Cyber-Security of Connected and Autonomous Vehicles,14,"GPS, Lidar, Camera, Radar, CAN and SAE J1939 busses, Integrated business services, Machine learning systems, Password and key, Communicated data, ECUs, TPMS, Bluetooth, Key fob and keyless entry, Vehicle to everything network","1. GPS, CAN and SAE J1939 busses: Network
+2. Lidar, Camera, Radar: Sensors
+3. Integrated business services: IVI
+4. Machine learning systems: ADAS
+5. ECUs, TPMS: Others, *Bluetooth: IVI or Others
+6. Password and key, Key fob and keyless entry: Radio",6,11,54.55%,"Communicated data, Vehicle to everything network: Neighbor vehicle"
+6,A systematic survey of attack detection and prevention in Connected and Autonomous Vehicles,6 (13),"Wireless Interfaces (DSRC, Wifi, LTE, Bluetooth), Physical Ports (USB, OBD-II), Keyless Entry Systems (Remote Key), In-vehicle Network (ECUs, CAN buses), Infotainment system (Firmware-over-the-air Update), Perception Sensors (Radar, LiDAR, Cameras)","1. DSRC, Remote Key: Radio
+2. Wifi, CAN buses: Network
+3. LTE, USB, OBD-II, Firmware-over-the-air Update: IVI
+4. ECUs: Others, *Bluetooth: IVI or Others
+5. Radar, LiDAR, Cameras: Sensors",5,11,45.45%,
+7,An Investigation of Cyber-Attacks and Security Mechanisms for Connected and Autonomous Vehicles,3 (23),"CLOUD (AI-based data analysis, Device management, Microservices management, Data management, Network management), FOG (Software defined networking (SDN)/Time sensitive networking (TSN), Heterogeneous computing platform, Time series database, AI-based data analysis, Power management), EDGE (Powertrain controller, Chassis safety controller, Body electronic controller, Infotainment system, Navigation system, Internal control bus, Artificial intelligence, Onboard computer systems, Onboard diagnostics systems, Data analysis and management, Network systems, Sensors, Power management)","1.AI-based data analysis, Device management, Microservices management, Data management, Network management, Heterogeneous computing platform, Time series database, AI-based data analysis, Power management: Cloud platform
+2. Software defined networking (SDN)/Time sensitive networking (TSN): Radio
+3. Powertrain controller, Chassis safety controller, Body electronic controller,Power management: Others
+4. Infotainment system, Navigation system,,Onboard computer systems, Onboard diagnostics systems: IVI 
+5. Artificial intelligence, Data analysis and management: ADAS
+6. Network systems, Internal control bus: Network 
+7. Sensors: Sensors 
+",7,11,63.64%,
+8,Security of Connected and Autonomous Vehicles: A Review of Attacks and Mitigation Strategies,2 (7),"Automotive Control System (ECU, CAN), Automotive Driving System (OBD, RADAR, Vision, LiDAR, GPS)","1. ECU: Others
+2. CAN, GPS: Network
+3. OBD: IVI
+4. RADAR, Vision, LiDAR: Sensors",4,11,36.36%,
+9,Autonomous Vehicle Security: Literature Review of Real Attack Experiments,3 (9),"Vehicle (Sensors, In-vehicle network, Vehicular communications), Environment (Road signs, Traffic lights, Charging stations, Neighbor vehicles), Software and mobile applications (Firmware updates, Internet-connected features)","1. Sensors: Sensors
+2. In-vehicle network: Network
+3. *In-vehicle network: Gateway
+4. Charging station: Charging pile
+5. Firmware updates, Internet-connected features: IVI",5,11,45.45%,"Vehicular communications, Neibor vehicles: Neighbor Vehicles
+Road signs: Road Signs
+Traffic: lights"
+10,Cybersecurity testing for automotive domain: A survey,2 (19),"Penetration Testing (GNSS, keyless entry, Cellular, Wifi, Bluetooth, IVI, Mobile app, Sensors, ECU, In-vehicle network, Debug interfaces, OBD), Fuzzing (Automotive system, SOME/IP, ECU Firmware, UDS, CAN FD, CAN, Bluetooth)","1. GNSS, Wifi, SOME/IP, In-vehicle network, UDS, CAN FD, CAN, Cellular: Network
+2. keyless entry: Radio
+3. Mobile app: APP 
+4. Sensors: Sensors
+5. Debug interfaces, OBD, IVI: IVI, *Bluetooth: Others or IVI
+6. Automotive system: ADAS
+7. ECU, ,ECU Firmware: Others ",7,11,63.64%,
+11,Autonomous Driving Security: State of the Art and Challenges,3 (23),"V2X (Smart Phone, Passive Keyless Entry, Remote Link Type App, OTA, Bluetooth, Remote Key, DSRC-based Receiver), In-Vehicle Systems (USB, OBD-II, CD Player, TPMS, Charger, Airbag ECU, ADAS System ECU, Lighting System ECU (Interior \& Exterior), Steering \& Braking ECU, Vehicle Access System ECU, Engine \& Transmission ECU), Sensors (Camera, GNSS/IMU, Ultrasonic Sensor, Millimeter-wave Radar, LiDAR)","1. Smart Phone, Remote Link Type App: APP
+2. Passive Keyless Entry, Remote Key, DSRC-based Receive: Radio
+3. OTA, USB, OBD-II, CD Player: IVI
+4. ADAS System ECU: ADAS
+5. TPMS, Charger, Airbag ECU, Lighting System ECU (Interior & Exterior), Steering & Braking ECU, Vehicle Access System ECU, Engine & Transmission ECU: Others; *Bluetooth: IVI or Others
+6. GNSS/IMU: Network
+7. Camera,  Ultrasonic Sensor, Millimeter-wave Radar, LiDAR: Sensors",7,11,63.64%,
+12,A Survey on Automated Driving System Testing: Landscapes and Trends.,5,"Sensing, Perception, Planning, Control, End-to-end","1. Others
+2. Sensors
+3. Network",3,11,27.27%,
+13,A Coprehensive Study of Autonomous Vehicle Bugs,14 (19),"Perception (Object Detection, Object Tracking, Data Fusion), Localization (Multi-Sensor Fusion, Lidar Locator), Trajectory Prediction, Map, Planning, Control, Sensor Calibration, Drivers, CAN Bus (Actuation, Communication, Monitor), Robotics-MW, Utilities and Tools, Docker, Documentation and Others","1. Object Detection, Object Tracking, Data Fusion, Multi-Sensor Fusion, Lidar Locator, Sensor Calibration, Trajectory Prediction, Control, Map, Planning, Monitor: Sensors or ADAS
+2. Communication: Network, 
+3. Robotics-MW: IVI
+4. Drivers, Utilities and Tools. Docker, Documentation and Others: ADAS",4,11,36.36%,
+,,,,,,,,

@@ -1,0 +1,118 @@
+ID,Title,Count,Type,Map,Cover,Total,%,Other
+1,A taxonomy of attack mechanisms in the automotive domain,21 (48),"Content spoofing (Message tampering, Audio attack, Replay, GPS spoofing, GPS time spoofing, Camera/Radar/LiDAR spoofing), Identity spoofing (Sybil attack, Falsified entities attack, Node impersonation, Repudiation attack, Key/Certificate replication), Manipulation of human behavior (Illusion attack), Flooding (Flooding attack, Routing table overflow), Sustained client engagement (Bus-off attack, Spamming attack), Protocol manipulation (TCP ACK storm), Software integrity attack (ECU tampering, Rogue software update, Map database poisoning), Infrastructure manipulation (Traffic control attack, Routing request modification, Routing cache poisoning, Black hole attack, Gray hole attack, Wormhole attack, Byzantine attack, Rushing attack), Obstruction (Channel interference attack, GPS jamming, Camera/Radar/LiDAR jamming, Radio signal jamming, Key fob jamming), Traffic injection (Message injection attack, Message fabrication attack), Local code execution (Malware attack), Code inclusion (Remote code execution), Exploiting trust in client (Man-in-the-middle attack), Privilege abuse (Man-at-the-end attack), Exploitation of trusted credentials (Session hijacking), Interception (Eavesdropping), Reverse engineering (Side-channel attack), Footprinting (ID disclosure attack, Location tracking attack, Trajectory tracking attack), Packet fuzzing, Password/Key attack, Timing attack","1. Message tampering, Audio attack, Channel interference attack: Traffic hijacking
+2. Replay: Replay 
+3. GPS spoofing, GPS time spoofing, GPS jamming: GPS spoofing
+4. Camera/Radar/LiDAR spoofing, Sybil attack, Repudiation attack, Key/Certificate replication, Message fabrication attack: Identity spoofing
+5. Remote code execution: Command injection
+6. Camera/Radar/LiDAR jamming, Radio signal jamming, Key fob jamming, Flooding attack, Routing table overflow, Bus-off attack,TCP ACK storm: DoS
+7. ECU tampering: Arbitary software installation
+8. Rogue software update: upgrade forgery
+9. Timing attack, Session hijacking, Side-channel attack, ID disclosure attack, Location tracking attack, Trajectory tracking attack: Information leakage
+10. Man-in-the-middle attack: Man-in-the-middle attack 
+11. Man-at-the-end attack: Man-at-the-end attack
+12. Password/Key attack: Weak password
+13. Message injection attack: Traffic injection",13,35,37.14%,"Falsified entities attack, Node impersonation, Traffic control attack, Routing request modification, Routing cache poisoning, Black hole attack, Gray hole attack, Byzantine attack, Rushing attack: V2X
+Map database poisoning,Illusion attack: AI/MI attack 
+Spamming attack, Wormhole attack, Malware attack, Eavesdropping: Malware"
+2,A survey on security attacks and defense techniques for connected and autonomous vehicles,3 (12),"Interrupting operations (LiDAR Jamming, Radar Jamming, GPS Jamming, Camera Blinding, Network Denial of Service) , Gaining Control over CAVs (LiDAR Spoofing, Radar Spoofing, GPS Spoofing, Adversarial Images), Stealing information (CAN, ECU, LiDAR)","1. GPS Jamming: GPS spoofing 
+2. Network Denial of Service,LiDAR Jamming, Radar Jamming: DoS 
+3. LiDAR Spoofing, Radar Spoofing, Spoofing: Identity spoofing
+4. Stealing information (CAN, ECU, LiDAR): Information leakage",4,35,11.43%,"Camera Blinding, Adversarial Images: AI/MI attacks"
+3,Survey and classification of automotive security attacks,6 (26),"Spoofing (Brute force, Man-in-the-middle, Hijacking, Replay), Tampering (XSS, SQL injection, Firmware modification, Virus, Worm, Fuzzing, Adversarial attack), Repudiation (Repudiation attack, Stealth attack), Information disclosure (Eavesdropping, Trojan, Spyware, Reverse engineering, Cryptoanalysis, Portscanning, Side-channel-attack, Fingerprinting), Denial of service (Distributed DoS, Jamming), Elevation of privilege (Buffer overflow, Rootkit, Backdoor)","1. Man-in-the-middle: Man-in-the-middle
+2. Hijacking: Traffic hijacking
+3. Hijacking: DNS hijacking
+4. Replay: Replay
+5. Repudiation attack: Identity spoofing
+6. XSS: XSS
+7. SQL injection: SQL injection
+8. Firmware modification: Arbitrary software installation
+9. Stealth attack, Side-channel-attack, Fingerprinting: Information leakage
+10. Cryptoanalysis: Weak password
+11. Eavesdropping: Sniffing
+12. Distributed DoS, Jamming: DoS
+13. Buffer overflow: Buffer overflow
+14. Backdoor: Backdoor
+",14,35,40.00%,"Virus,Worm,Rootkit,Trojan, Spyware: Malware
+Adversarial attack: AI/MI attack"
+4,Autonomous Vehicle Security: A Taxonomy of Attacks and Defences,2 (8),"Physical Access (Side-channel, Code modification, Code injection, Packet sniffing, Packet fuzzing, In-vehicle spoofing), Remote Access (External signal spoofing, Jamming)","1. Side-channel: Information leakage
+2. Code modification: Arbitrary software installation
+3. Code injection: Command injection
+4. Packet sniffing: Sniffing
+5. In-vehicle spoofing, Remote Access, External signal spoofing: Traffic hijacking
+6. Jamming: DoS",6,35,17.14%,
+5,A Survey on Cyber-Security of Connected and Autonomous Vehicles,3 (17) ,"In-vehicle network attacks (Remote sensor attacks, GPS spoofing, Location trailing, Close proximity vulnerabilities, CAN and SAE J1939 buses vulnerabilities, ECUs software flashing, Integrated business services attacks), Vehicle to everything network attacks (DoS, Impersonation, Replay, Routing attacks, Data falsification, Eavesdropping, Password and key attacks), Other attacks (Infrastructure attacks, Slight attacks, )","1. Remote sensor attacks: Identity spoofing
+2. Close proximity vulnerabilities: Traffic hijacking
+3. GPS spoofing: GPS spoofing
+4. Location trailing: Information leakage
+5. CAN and SAE J1939 buses vulnerabilities, DoS: DoS
+6. ECUs software flashing: Arbitary sofware installation 
+7. Integrated business services attacks: Unauthorized accessing
+8. Impersonation, Data falsification: Identity spoofing
+9. Replay: Replay
+10. Routing attacks, Infrastructure attacks, Slight attacks: V2X attack
+11. Eavesdropping: Sniffing
+12. Password and key attacks: Weak password",12,35,34.29%,
+6,A systematic survey of attack detection and prevention in Connected and Autonomous Vehicles,10,"Impersonation, DoS, Sybil, Modification, Replay, Injection, Side-channel, Fuzzing, Bus-off, Remote sensor","1. Impersonation: Identity spoofing
+2. DoS, Bus-off: DoS
+3. Sybil, Remote sensor: Identity spoofing
+4. Modification: Arbitrary software installation
+5. Replay: Replay
+6. Injection: Command Injection
+7. Side-channel: Information leakage",7,35,20.00%,
+7,An Investigation of Cyber-Attacks and Security Mechanisms for Connected and Autonomous Vehicles,3 (19),"SOFTWARE (Fake node or sybil attack, Replay, AI/ML attack, Social engineering attack, System's availability, Denial of Sleep, Malicious code, Injection), NETWORK (Man-in-The-Middle, Eavesdropping or sniffing, DoS, Routing attack, Gray hole, Black hole, Wormhole), HARDWARE (Node-capture, Side-channel attack, Timing attack, Cryptanalysis attack)","1. Replay: Replay
+2. Social engineering attack: Unauthorized accessing
+3. Timing attack: Information leakage
+4. System's availability, Denial of Sleep, DoS: DoS
+5. Malicious code: arbitrary software installation
+6. Injection: Command injection
+7. Man-in-The-Middle: Man-in-The-Middle
+8. Eavesdropping or sniffing: Sniffing
+9. Side-channel attack: Information leakage
+10. Cryptanalysis attack: Weak password",10,35,28.57%,"Fake node or sybil attack, Routing attack,Gray hole, Black hole, Wormhole,Node-capture: V2X
+AI/ML attack: AI/ML attack"
+8,Security of Connected and Autonomous Vehicles: A Review of Attacks and Mitigation Strategies,8,"False Data Injection, Time Delay Switch, Denial of Service, Communication Jamming, Man in the Middle, Vehicular Ad-hoc Networks, Infotainment, Machine Learning based Attacks","1. False Data Injection: Traffic injection
+2. Time Delay Switch: Information leakage
+3. Denial of Service, Communication Jamming: DoS
+4. Man in the Middle: Man-in-the-middle
+5. Infotainment: Arbitrary software installation",5,35,14.29%,"Vehicular Ad-hoc Networks: V2X
+Machine Learning based Attacks: AI/ML attack"
+9,Autonomous Vehicle Security: Literature Review of Real Attack Experiments,6,"Spoofing, Tampering, Repudiation, Information disclosure, Denial of Service, Elevation of privileges","1. Tampering: Traffic hijacking
+2. Spoofing, Repudiation: Identity soofing
+3. Information disclosure: Information leakage
+4. Denial of Service: DoS
+5. Elevation of privileges: privileage escalation",5,35,14.29%,
+10,Cybersecurity testing for automotive domain: A survey,17,"DoS, Channel attack, Privilege escalation, Heap overflow attack, Jamming, Blinding attack, Malicious app installation, Wireless attack, Replay attack, Spoofing, Data extraction/modification, Diagnostic attack, Injection attack, Tampering, Unauthorized access, Reverse engineering, Sniffing/Eavesdropping","1. DoS: DoS
+2. Channel attack, Data extraction/modification: Information leakage
+3. Privilege escalation: Privilege escalation
+4. Heap overflow attack: Buffer overflow
+5. Jamming: DoS
+6. Wireless attack,Tampering,Diagnostic attack: Traffic hijacking
+7. Malicious app installation: Arbitrary software installation
+8. Replay attack: Replay
+9. Spoofing: Identity spoofing
+10. Unauthorized access: Unauthorized accessing
+11. Injection attack: Command injection
+12. Sniffing/Eavesdropping: Sniffing",12,35,34.29%,Blinding attack: AI/MI attack
+11,Autonomous Driving Security: State of the Art and Challenges, 4 (19),"Authenticity/Identification (Sybil, Key or Certificate Replication, GNSS Spoofing, Timing), Availability (DoS, DDoS, Spamming, Flooding, Wormhole, Blackhole, Malware, Jamming, Broadcast Tampering), Data Integrity (Masquerading, Replay, Illusion, Message Alteration), Confidentiality (Traffic Analysis, Eavesdropping)","1. Key or Certificate Replication: Identity spoofing
+2. GNSS Spoofing: GPS spoofing
+3. Timing: Information leakage
+4. Message Alteration, Broadcast Tampering: Traffic hijacking
+5. Traffic Analysis: Unauthorized accessing
+6. Eavesdropping: Sniffing
+7. DoS, DDoS, Spamming, Flooding, Jamming: DoS
+8. Replay: Replay",8,35,22.86%,"Illusion: AI/MI attack
+Wormhole, Blackhole: V2X
+Malware, Sybil,Masquerading: Malware"
+12,A Survey on Automated Driving System Testing: Landscapes and Trends.,9 (10),"Physical testing, Deliberate attack (Jamming attack,  Spoofing attack),  Optimization-based attack,  GAN-based attack, Trojan attack, Search-based testing,  Fault injection,  Sampling,  Falsification","1. Jamming attack: DoS
+2. Spoofing attack: Identity spoofing
+3. Spoofing attack: Traffic hijcaking
+4. Spoofing attack: GPS spoofing",4,35,11.43%,"Optimization-based attack, Physical testing, GAN-based attack, Search-based testing, Fault injection, Sampling, Falsification: AI/MI attack 
+Trojan attack: Malware"
+13,A Coprehensive Study of Autonomous Vehicle Bugs,13,"Incorrect algorithm implementation, Incorrect numerical computation, Incorrect assignment, Missing condition checks, Data, Misuse of an external interface, Misuse of an internal interface, Incorrect condition logic, Concurrency, Memory, Invalid Documentation, Incorrect configuration, Other","1. Incorrect algorithm implementation: Weak password 
+2. Concurrency: Information leakage
+3. Misuse of an external interface, Misuse of an internal interface: Debug interface exposure
+4. Invalid Documentation, Incorrect configuration, Missing condition checks, Incorrect condition logic: Unauthorized accessing   
+5. Data: Information leakage
+6. Incorrect numerical computation, Incorrect assignment, Memory: Buffer overflow",6,35,17.14%,
+,,,,,,,#DIV/0!,
+,,,,,,,,
