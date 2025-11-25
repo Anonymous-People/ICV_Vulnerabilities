@@ -1,0 +1,44 @@
+﻿#,Type,#,1,2,3,4,5,6,7,8,9,10,11,12,13
+,,Paper Title：,A taxonomy of attack mechanisms in the automotive domain,A survey on security attacks and defense techniques for connected and autonomous vehicles,Survey and classification of automotive security attacks,Autonomous Vehicle Security: A Taxonomy of Attacks and Defences,A Survey on Cyber-Security of Connected and Autonomous Vehicles,A systematic survey of attack detection and prevention in Connected and Autonomous Vehicles,An Investigation of Cyber-Attacks and Security Mechanisms for Connected and Autonomous Vehicles,Security of Connected and Autonomous Vehicles: A Review of Attacks and Mitigation Strategies,Autonomous Vehicle Security: Literature Review of Real Attack Experiments,Cybersecurity testing for automotive domain: A survey,Autonomous Driving Security: State of the Art and Challenges,A Survey on Automated Driving System Testing: Landscapes and Trends.,A Coprehensive Study of Autonomous Vehicle Bugs
+1,Unauthorized accessing,,,,,,X,,X,,,X,X,,X
+2,Weak password,,X,,X,,X,,X,,,,,,X
+3,Privilege escalation,,,,,,,,,,X,X,,,
+4,Identity spoofing,,X,X,X,,X,X,,,X,X,X,X,
+5,Backdoor,,,,X,,,,,,,,,,
+6,Information leakage,,X,X,X,X,X,X,X,X,X,X,X,,X
+7,SQL injection,,,,X,,,,,,,,,,
+8,Command injection,,X,,,X,,X,X,,,X,,,
+9,Traffic injection,,X,,,,,,,X,,,,,
+10,Kernel,,,,,,,,,,,,,,
+11,Arbitrary software installation,,X,,X,X,X,X,X,X,,X,,,
+12,USB,,,,,,,,,,,,,,
+13,Debug interface exposure,,,,,,,,,,,,,,X
+14,Upgrade forgecy,,X,,,,,,,,,,,,
+15,DoS,,X,X,X,X,X,X,X,X,X,X,X,X,
+16,File accessing,,,,,,,,,,,,,,
+17,File download,,,,,,,,,,,,,,
+18,File tampering,,,,,,,,,,,,,,
+19,File upload,,,,,,,,,,,,,,
+20,File traversal,,,,,,,,,,,,,,
+21,File delete,,,,,,,,,,,,,,
+22,Relay,,,,,,,,,,,,,,
+23,Replay,,X,,X,,X,X,X,,,X,X,,
+24,Man-in-the-middle,,X,,X,,,,X,X,,,,,
+25,GPS spoofing,,X,X,,,X,,,,,,X,X,
+26,Traffic hijacking,,X,,X,X,X,,,,X,X,X,X,
+27,DNS hijacking,,,,X,,,,,,,,,,
+28,Man-at-the-end,,X,,,,,,,,,,,,
+29,Sniffing,,,,X,X,X,,X,,,X,X,,
+30,XSS,,,,X,,,,,,,,,,
+31,Deserialization,,,,,,,,,,,,,,
+32,Phishing,,,,,,,,,,,,,,
+33,XXE,,,,,,,,,,,,,,
+34,Buffer overflow,,,,X,,,,,,,X,,,X
+35,Integer overflow,,,,,,,,,,,,,,
+36,V2X attacks,,X,,,,X,,X,X,,,X,,
+37,AI/ML attacks,,X,X,X,,,,X,X,,X,X,X,
+38,Malware,,X,,X,,,,,,,,X,X,
+# Count,,,13,4,14,6,11,6,9,5,5,11,8,4,5
+# Total,,,35,35,35,35,35,35,35,35,35,35,35,35,35
+%,,,37%,11%,40%,17%,31%,17%,26%,14%,14%,31%,23%,11%,14%
+,,,,,,,,,,,,,,,

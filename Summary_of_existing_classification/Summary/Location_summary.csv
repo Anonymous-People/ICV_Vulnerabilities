@@ -58,7 +58,7 @@ Traffic: lights"
 4. Sensors: Sensors
 5. Debug interfaces, OBD, IVI: IVI, *Bluetooth: Others or IVI
 6. Automotive system: ADAS
-7. ECU, ,ECU Firmware: Others ",7,11,63.64%,
+7. ECU, ECU Firmware: Others ",7,11,63.64%,
 11,Autonomous Driving Security: State of the Art and Challenges,3 (23),"V2X (Smart Phone, Passive Keyless Entry, Remote Link Type App, OTA, Bluetooth, Remote Key, DSRC-based Receiver), In-Vehicle Systems (USB, OBD-II, CD Player, TPMS, Charger, Airbag ECU, ADAS System ECU, Lighting System ECU (Interior \& Exterior), Steering \& Braking ECU, Vehicle Access System ECU, Engine \& Transmission ECU), Sensors (Camera, GNSS/IMU, Ultrasonic Sensor, Millimeter-wave Radar, LiDAR)","1. Smart Phone, Remote Link Type App: APP
 2. Passive Keyless Entry, Remote Key, DSRC-based Receive: Radio
 3. OTA, USB, OBD-II, CD Player: IVI

@@ -40,35 +40,32 @@ Adversarial attack: AI/MI attack"
 4. Packet sniffing: Sniffing
 5. In-vehicle spoofing, Remote Access, External signal spoofing: Traffic hijacking
 6. Jamming: DoS",6,35,17.14%,
-5,A Survey on Cyber-Security of Connected and Autonomous Vehicles,3 (17) ,"In-vehicle network attacks (Remote sensor attacks, GPS spoofing, Location trailing, Close proximity vulnerabilities, CAN and SAE J1939 buses vulnerabilities, ECUs software flashing, Integrated business services attacks), Vehicle to everything network attacks (DoS, Impersonation, Replay, Routing attacks, Data falsification, Eavesdropping, Password and key attacks), Other attacks (Infrastructure attacks, Slight attacks, )","1. Remote sensor attacks: Identity spoofing
+5,A Survey on Cyber-Security of Connected and Autonomous Vehicles,3 (17) ,"In-vehicle network attacks (Remote sensor attacks, GPS spoofing, Location trailing, Close proximity vulnerabilities, CAN and SAE J1939 buses vulnerabilities, ECUs software flashing, Integrated business services attacks), Vehicle to everything network attacks (DoS, Impersonation, Replay, Routing attacks, Data falsification, Eavesdropping, Password and key attacks), Other attacks (Infrastructure attacks, Slight attacks, )","1. Remote sensor attacks, Impersonation, Data falsification: Identity spoofing
 2. Close proximity vulnerabilities: Traffic hijacking
 3. GPS spoofing: GPS spoofing
 4. Location trailing: Information leakage
 5. CAN and SAE J1939 buses vulnerabilities, DoS: DoS
 6. ECUs software flashing: Arbitary sofware installation 
 7. Integrated business services attacks: Unauthorized accessing
-8. Impersonation, Data falsification: Identity spoofing
-9. Replay: Replay
-10. Routing attacks, Infrastructure attacks, Slight attacks: V2X attack
-11. Eavesdropping: Sniffing
-12. Password and key attacks: Weak password",12,35,34.29%,
-6,A systematic survey of attack detection and prevention in Connected and Autonomous Vehicles,10,"Impersonation, DoS, Sybil, Modification, Replay, Injection, Side-channel, Fuzzing, Bus-off, Remote sensor","1. Impersonation: Identity spoofing
+8. Replay: Replay
+9. Routing attacks, Infrastructure attacks, Slight attacks: V2X attack
+10. Eavesdropping: Sniffing
+11. Password and key attacks: Weak password",11,35,31.43%,
+6,A systematic survey of attack detection and prevention in Connected and Autonomous Vehicles,10,"Impersonation, DoS, Sybil, Modification, Replay, Injection, Side-channel, Fuzzing, Bus-off, Remote sensor","1. Impersonation, Sybil, Remote sensor: Identity spoofing
 2. DoS, Bus-off: DoS
-3. Sybil, Remote sensor: Identity spoofing
-4. Modification: Arbitrary software installation
-5. Replay: Replay
-6. Injection: Command Injection
-7. Side-channel: Information leakage",7,35,20.00%,
+3. Modification: Arbitrary software installation
+4. Replay: Replay
+5. Injection: Command Injection
+6. Side-channel: Information leakage",6,35,17.14%,
 7,An Investigation of Cyber-Attacks and Security Mechanisms for Connected and Autonomous Vehicles,3 (19),"SOFTWARE (Fake node or sybil attack, Replay, AI/ML attack, Social engineering attack, System's availability, Denial of Sleep, Malicious code, Injection), NETWORK (Man-in-The-Middle, Eavesdropping or sniffing, DoS, Routing attack, Gray hole, Black hole, Wormhole), HARDWARE (Node-capture, Side-channel attack, Timing attack, Cryptanalysis attack)","1. Replay: Replay
 2. Social engineering attack: Unauthorized accessing
-3. Timing attack: Information leakage
+3. Timing attack, Side-channel attack: Information leakage
 4. System's availability, Denial of Sleep, DoS: DoS
 5. Malicious code: arbitrary software installation
 6. Injection: Command injection
 7. Man-in-The-Middle: Man-in-The-Middle
 8. Eavesdropping or sniffing: Sniffing
-9. Side-channel attack: Information leakage
-10. Cryptanalysis attack: Weak password",10,35,28.57%,"Fake node or sybil attack, Routing attack,Gray hole, Black hole, Wormhole,Node-capture: V2X
+9. Cryptanalysis attack: Weak password",9,35,25.71%,"Fake node or sybil attack, Routing attack,Gray hole, Black hole, Wormhole,Node-capture: V2X
 AI/ML attack: AI/ML attack"
 8,Security of Connected and Autonomous Vehicles: A Review of Attacks and Mitigation Strategies,8,"False Data Injection, Time Delay Switch, Denial of Service, Communication Jamming, Man in the Middle, Vehicular Ad-hoc Networks, Infotainment, Machine Learning based Attacks","1. False Data Injection: Traffic injection
 2. Time Delay Switch: Information leakage
@@ -77,22 +74,21 @@ AI/ML attack: AI/ML attack"
 5. Infotainment: Arbitrary software installation",5,35,14.29%,"Vehicular Ad-hoc Networks: V2X
 Machine Learning based Attacks: AI/ML attack"
 9,Autonomous Vehicle Security: Literature Review of Real Attack Experiments,6,"Spoofing, Tampering, Repudiation, Information disclosure, Denial of Service, Elevation of privileges","1. Tampering: Traffic hijacking
-2. Spoofing, Repudiation: Identity soofing
+2. Spoofing, Repudiation: Identity spoofing
 3. Information disclosure: Information leakage
 4. Denial of Service: DoS
 5. Elevation of privileges: privileage escalation",5,35,14.29%,
-10,Cybersecurity testing for automotive domain: A survey,17,"DoS, Channel attack, Privilege escalation, Heap overflow attack, Jamming, Blinding attack, Malicious app installation, Wireless attack, Replay attack, Spoofing, Data extraction/modification, Diagnostic attack, Injection attack, Tampering, Unauthorized access, Reverse engineering, Sniffing/Eavesdropping","1. DoS: DoS
+10,Cybersecurity testing for automotive domain: A survey,17,"DoS, Channel attack, Privilege escalation, Heap overflow attack, Jamming, Blinding attack, Malicious app installation, Wireless attack, Replay attack, Spoofing, Data extraction/modification, Diagnostic attack, Injection attack, Tampering, Unauthorized access, Reverse engineering, Sniffing/Eavesdropping","1. DoS, Jamming: DoS
 2. Channel attack, Data extraction/modification: Information leakage
 3. Privilege escalation: Privilege escalation
-4. Heap overflow attack: Buffer overflow
-5. Jamming: DoS
-6. Wireless attack,Tampering,Diagnostic attack: Traffic hijacking
-7. Malicious app installation: Arbitrary software installation
-8. Replay attack: Replay
-9. Spoofing: Identity spoofing
-10. Unauthorized access: Unauthorized accessing
-11. Injection attack: Command injection
-12. Sniffing/Eavesdropping: Sniffing",12,35,34.29%,Blinding attack: AI/MI attack
+4. Heap overflow attack: Buffer overflowDoS
+5. Wireless attack,Tampering,Diagnostic attack: Traffic hijacking
+6. Malicious app installation: Arbitrary software installation
+7. Replay attack: Replay
+8. Spoofing: Identity spoofing
+9. Unauthorized access: Unauthorized accessing
+10. Injection attack: Command injection
+11. Sniffing/Eavesdropping: Sniffing",11,35,31.43%,Blinding attack: AI/MI attack
 11,Autonomous Driving Security: State of the Art and Challenges, 4 (19),"Authenticity/Identification (Sybil, Key or Certificate Replication, GNSS Spoofing, Timing), Availability (DoS, DDoS, Spamming, Flooding, Wormhole, Blackhole, Malware, Jamming, Broadcast Tampering), Data Integrity (Masquerading, Replay, Illusion, Message Alteration), Confidentiality (Traffic Analysis, Eavesdropping)","1. Key or Certificate Replication: Identity spoofing
 2. GNSS Spoofing: GPS spoofing
 3. Timing: Information leakage
@@ -109,8 +105,7 @@ Malware, Sybil,Masquerading: Malware"
 4. Spoofing attack: GPS spoofing",4,35,11.43%,"Optimization-based attack, Physical testing, GAN-based attack, Search-based testing, Fault injection, Sampling, Falsification: AI/MI attack 
 Trojan attack: Malware"
 13,A Coprehensive Study of Autonomous Vehicle Bugs,13,"Incorrect algorithm implementation, Incorrect numerical computation, Incorrect assignment, Missing condition checks, Data, Misuse of an external interface, Misuse of an internal interface, Incorrect condition logic, Concurrency, Memory, Invalid Documentation, Incorrect configuration, Other","1. Incorrect algorithm implementation: Weak password 
-2. Concurrency: Information leakage
+2. Concurrency, Data: Information leakage
 3. Misuse of an external interface, Misuse of an internal interface: Debug interface exposure
 4. Invalid Documentation, Incorrect configuration, Missing condition checks, Incorrect condition logic: Unauthorized accessing   
-5. Data: Information leakage
-6. Incorrect numerical computation, Incorrect assignment, Memory: Buffer overflow",6,35,17.14%,
+5. Incorrect numerical computation, Incorrect assignment, Memory: Buffer overflow",5,35,14.29%,
